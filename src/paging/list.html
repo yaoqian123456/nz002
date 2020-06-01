@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="never">
+    
+    <title>DHC中国官方网站-100%日本原装进口化妆品品牌</title>
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <style>
+           /*通用样式*/
+           *{margin: 0;padding: 0;}
+        a{text-decoration: none;font-size: 14px;color: white;}
+        ul li{list-style: none;}
+        ol li{list-style: none;}
+        .container-fluid{width: 100%;}
+        .container{width: 1200px;margin: 0 auto;}
+        .clear:after { clear:both;content:'';display:block;width:0;height:0;visibility:hidden; }
+       
+        /* head样式 */
+        
+        #head{background-color: #014198;font-size: 14px;}
+        #head .let{float: left;display: flex;}
+        #head .let a{color: #b0bbd6;line-height: 50px;}
+        #head .let .let-1{margin-right: 20px;}
+        #head .let .let-1 .s{padding-left: 20px;}
+
+        #head .rit{float: right;display: flex;line-height: 50px;}
+        #head .rit a{color: #b0bbd6;}
+        #head .rit .login{color: #b0bbd6;margin-left: 10px;cursor: pointer;}
+        #head .rit .user{color: #b0bbd6;margin-left: 10px;cursor: pointer;display: none;}
+        #head .rit .quit{margin-left: 10px;}
+        #head .rit .shooping{color:#b0bbd6;margin-left: 10px;cursor: pointer;}
+       
+         /* header样式 */
+        #header{position: relative;height: 100px;}
+        #header a{color:black;font-size: 16px;}
+        #header .log{float: left;margin-top: 20px;}
+        #header .log img{}
+        #header ul{float: right;height: 100px;line-height: 100px;}
+        #header ul li{display: inline-block;margin: 0 40px;}
+        #header ul li.ll{}
+        #header ul li.ll ul{position: absolute;top: 100px;left: 0px;background-color:white;height: 100px;padding-left: 700px;
+                display: none;line-height: 100px;width: 100%;z-index: 2;}
+        #header ul li.ll ul li{display: inline-block;margin: 0 30px;}
+        #header ul li.ll ul li a{font-size: 14px;}
+        #header ul li a:hover{color:#004098;font-weight: 700;} 
+
+         /* banner样式 */
+        #banner{width: 100%;background-color: black;}
+        #banner .lunbo{width:1900px;margin: 0 auto;height: 700px;position: relative;overflow: hidden;}
+        #banner ul{position: absolute;left: 0;top: 0;width: 500%;}
+        #banner ul li{float: left;}
+        #banner ul li img{width: 1900px;height: 700px;}
+        
+        #banner .btu1 {
+            position: absolute;
+            left: 200px;
+            top: 50%;
+            transform: translateY(-50%);
+            
+            color: white;
+        }
+
+        #banner  .btu2 {
+            position: absolute;
+            right: 200px;
+            top: 50%;
+            transform: translateY(-50%);
+           
+            color: white;
+        }
+
+    
+       
+        #banner a {
+            text-decoration: none;
+            font-size: 50px;
+            color: white;
+        }
+       #banner ol {
+            list-style: none;
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+       #banner ol li {
+            width: 80px;
+            height: 5px;
+           
+            background-color: rgba(255, 255, 255, 0.6);
+            display: inline-block;
+            margin: 0 10px;
+        }
+      banner  ol li.active {
+            background-color: red;
+        }
+
+     /* fix样式 */
+     #fix{position: fixed;top: 0;left: 0;background-color: white;z-index: 1;display: none;}
+    #fix a{color:black;font-size: 16px;}
+       #fix .log{float: left;margin-top: 20px;}
+       #fix .log img{}
+       #fix ul{float: right;height: 100px;line-height: 100px;}
+       #fix ul li{display: inline-block;margin: 0 40px;}
+       #fix ul li.ll{cursor: pointer;}
+       #fix ul li.ll:hover{color:#004098;font-weight: 700;}
+       #fix ul li.ll ul{position: absolute;top: 100px;left: 0px;background-color:white;height: 100px;padding-left: 700px;
+                display: none;line-height: 100px;width: 100%;z-index: 2;}
+       #fix ul li.ll ul li{display: inline-block;margin: 0 30px;}
+       #fix ul li.ll ul li a{font-size: 14px;}
+       #fix ul li a:hover{color:#004098;font-weight: 700;} 
+       
+       #list{margin-top: 50px;}
+       #list .sol{}
+       #list .sol li{float: left;width: 250px;border: 1px solid blueviolet;margin: 18px;height: 450px;}
+       #list .sol li .name{font-size: 14px;font-weight: 700;margin-bottom: 10px;color: blueviolet;}
+       #list .sol li .pic{width: 250px;}
+       #list .sol li .pic img{width:250px;}
+       #list .sol li .describe{margin-left: 10px; font-size: 14px;margin-top: 20px;margin-bottom: 10px;height: 40px;overflow: hidden;
+        display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;color: #af95a2;}
+       #list .sol li .price{font-size: 20px;font-weight: 700;text-align: center;margin-bottom: 10px;color: red;}
+       #list .sol li  .details{font-size: 18px;width: 150px;height: 30px;background-color:red;
+                text-align: center;line-height: 30px;margin-left: 50px;margin-top: 20px;}
+       .M-box {text-align: right;}      
+       .M-box a{
+        color:black;font-size: 18px;
+      }
+
+      .M-box .active{
+        color: red;font-size: 18px;
+      }
+
+      #foot{background-color: #292929;margin-top: 100px;}
+      #foot .uu1{}
+      #foot .uu1 li{float: left;width: 33%;margin-top: 20px;}
+      #foot .uu1 li .dhc{font-size: 70px;color: wheat;margin-bottom: 40px;}
+      #foot .uu1 li .text1{color: white;margin-bottom: 20px;font-size: 14px;}
+      #foot .uu1 li .text2{color: white;font-size: 20px;font-weight: 700;margin-top: 30px;}
+      #foot .uu1 li .uu2 span{margin-left: 30px;}
+
+      #foot .uu1 li .uu2 li{}
+      #foot .uu1 li .ban{color: white;}
+      #foot .uu1 li .uu3{text-align: center;}
+      #foot .uu1 li .uu3 li{}
+      #foot .uu1 li .uu3 .text3{color: white;font-size: 14px;}
+
+    </style>
+</head>
+<body>
+    <div id="head" class="container-fluid">
+        <div class="container clear">
+            <div class="let">
+                <div class="let-1"><a href="#"><span class="iconfont iconfiledicon_store_gre"></span> 门店查询<span class="s">|</span></a></div>
+                <div class="let-2"><a href="#"><span class="iconfont iconV"></span> 在线客服</a></div>
+            </div>
+            <div class="rit">
+                <div class="reg"><a href ="./reg.html">注册 <span class="iconfont icongeren"></span></a></div>
+                <div class="login">登录</div>
+                <div class="user"></div>
+                <div class="quit"><a href="./list.html">退出登录</a></div>
+                <div class="shooping"><span class="iconfont icon49"></span> 购物车</div>
+            </div>
+        </div>
+    </div>
+    <div id="header" class="container-fluid">
+      <div class="container ">
+        <div class="log"><img src="../img/001.png"></div>
+        <ul>
+            <li class="active"><a href="./index.html">首页</a></li>
+            <li><a href="#">本月优惠</a></li>
+            <li><a href="#">积分商城</a></li>
+            <li class="ll"><a href="#">全部商品</a>
+                <ul class="u2">
+                  
+                    <li><a href="./list.html?cat_one_id=食品酒水">食品酒水</a></li>
+                    <li><a href="./list.html?cat_one_id=童装玩具">童装玩具</a></li>
+                    <li><a href="./list.html?cat_one_id=家装建材">家装建材</a></li>
+                    <li><a href="./list.html?cat_one_id=奶粉尿裤">奶粉尿裤</a></li>
+                    <li><a href="./list.html?cat_one_id=其他">其他产品</a></li>
+                </ul>
+            </li>
+            <li><a href="#">特价抢购</a></li>
+            <li><a href="#">品牌故事</a></li>
+        </ul>
+     </div>
+   </div>
+
+   <div id="fix" class="container-fluid">
+    <div class="container ">
+      <div class="log"><img src="../img/001.png"></div>
+      <ul>
+          <li class="active"><a href="./index.html">首页</a></li>
+          <li><a href="#">本月优惠</a></li>
+          <li><a href="#">积分商城</a></li>
+          <li class="ll">全部商品
+              <ul class="u2">
+                
+                <li><a href="./list.html?cat_one_id=食品酒水">食品酒水</a></li>
+                <li><a href="./list.html?cat_one_id=童装玩具">童装玩具</a></li>
+                <li><a href="./list.html?cat_one_id=家装建材">家装建材</a></li>
+                <li><a href="./list.html?cat_one_id=奶粉尿裤">奶粉尿裤</a></li>
+                <li><a href="./list.html?cat_one_id=其他">其他产品</a></li>
+              </ul>
+          </li>
+          <li><a href="#">特价抢购</a></li>
+          <li><a href="#">品牌故事</a></li>
+      </ul>
+   </div>
+ </div>
+ <div id="list" class="container ">
+     <ul class="sol clear">
+
+     </ul>
+     <div class="M-box"></div>
+ </div>
+ <div id="foot" class="container-fluid">
+    <div class="container">
+        <ul class="uu1 clear">
+            <li>
+                <div class="dhc">DHC</div>
+                <div class="text1">
+                    企业营业执照沪ICP备05035135</div>
+            </li>
+            <li>
+                <div class="text2">上海蝶翠诗商业有限公司</div>
+                <ul class="uu2">
+                    <li><a href="#">使用条款<span>|</span></a></li>
+                    <li><a href="#">隐私条款<span>|</span></a></li>
+                    <li><a href="#">交易规则</a></li>
+                </ul>
+                <div class="ban">版权所有(C)2003-2022上海邮政信箱126-019(浦东局) 邮编:200126</div>
+            </li>
+            <li>
+                <ul class="uu3">
+                    <li><a href="#"><img src="http://www.dhc.net.cn/top/secFooter/gs_icon.png"></a>
+                    <div class="text3">上海工商</div>
+                    </li>
+                    <li><a href="#"><img src="http://www.dhc.net.cn/top/secFooter/wj_icon.png"></a>
+                        <div class="text3">上海网警110</div>
+                    </li>
+
+                    <li><a href="#"><img src="http://www.dhc.net.cn/top/secFooter/zx_icon.png"></a>
+                        <div class="text3">网络社会征信网</div></li>
+
+                </ul>
+            </li>
+        </ul>
+    </div>
+ </div>
+ 
+ <script src="../jquery.min.js"></script>
+ <script src="../js/cookie.js"></script>
+<script src="../js/sides2.js"></script>
+<script src="../jquery-pagination/jquery.pagination.js"></script>
+ <script src="../js/list.js"></script>
+</body>
+</html>
